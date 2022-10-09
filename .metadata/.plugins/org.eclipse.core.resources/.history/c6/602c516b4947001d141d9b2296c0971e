@@ -1,0 +1,7 @@
+spring:
+  datasource:
+
+logging:
+   level:
+     root: warn
+     '[com.promineotech]': debug
