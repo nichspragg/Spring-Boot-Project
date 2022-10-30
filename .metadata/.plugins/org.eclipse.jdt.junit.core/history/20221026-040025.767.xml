@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FetchJeepTest" project="jeep-sales" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.promineotech.jeep.controller.FetchJeepTest" time="6.092" displayname="FetchJeepTest" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]">
+    <testcase name="testThatJeepsAreReturnedWhenAValidModelAndTrimAreSupplied" classname="com.promineotech.jeep.controller.FetchJeepTest" time="4.88" displayname="testThatJeepsAreReturnedWhenAValidModelAndTrimAreSupplied()" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]/[method:testThatJeepsAreReturnedWhenAValidModelAndTrimAreSupplied()]"/>
+    <testcase name="testDb" classname="com.promineotech.jeep.controller.FetchJeepTest" time="0.675" displayname="testDb()" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]/[method:testDb()]"/>
+    <testcase name="testThatAnErrorMessageIsReturnedWhenAnInvalidTrimIsSupplied" classname="com.promineotech.jeep.controller.FetchJeepTest" time="0.526" displayname="testThatAnErrorMessageIsReturnedWhenAnInvalidTrimIsSupplied()" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]/[method:testThatAnErrorMessageIsReturnedWhenAnInvalidTrimIsSupplied()]"/>
+  </testsuite>
+</testrun>
