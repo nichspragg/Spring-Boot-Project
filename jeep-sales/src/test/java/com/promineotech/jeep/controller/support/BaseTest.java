@@ -7,7 +7,7 @@ import com.promineotech.jeep.entity.Jeep;
 import lombok.Getter;
 
 public class BaseTest {
-	/*
+	
 	@LocalServerPort
 	private int serverPort;
 	
@@ -15,8 +15,20 @@ public class BaseTest {
 	@Getter
 	private TestRestTemplate restTemplate;
 	
-	protected String getBaseUri() {
-		return String.format("http://localhost%d/jeeeps", serverPort);
-	}
-	*/
+	/**
+	 * 
+	 * @return
+	 */
+	protected String getBaseUriForJeeps() {
+		return String.format("http://localhost%d/jeeps", serverPort);
+		}
+	/**
+	 * 
+	 * @return
+	 */
+	protected String getBaseUriForOrders() {
+		return String.format("http://localhost%d/orders", serverPort);
+		}
+	
+	
 } //end of class

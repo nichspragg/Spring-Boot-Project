@@ -24,7 +24,7 @@ public class Jeep implements Comparable<Jeep> {
   private BigDecimal basePrice;
   
   @JsonIgnore
-  private Long getModelPk() {
+public Long getModelPk() {
 	  return modelPK;
   }
 

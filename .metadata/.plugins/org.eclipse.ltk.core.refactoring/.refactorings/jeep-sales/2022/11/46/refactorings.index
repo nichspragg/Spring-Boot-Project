@@ -1,0 +1,6 @@
+1667786308391	Rename method 'getBaseUri'
+1668139837466	Extract method 'getCustomer'
+1668139874326	Extract method 'getModel'
+1668139908599	Extract method 'getColor'
+1668139922615	Extract method 'getEngine'
+1668139939238	Extract method 'getTire'
